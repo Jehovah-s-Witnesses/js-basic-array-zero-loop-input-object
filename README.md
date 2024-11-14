@@ -1,7 +1,21 @@
-# template-vanilla
+# js-basic-array-zero-loop-input-object
 
-## Text
+## Need to create an object with methods (modify existed object in `src/index.js`)
 
+### `.getInput()`, which takes no arguments, should implement a loop of prompts. For example, we should be able to enter numbers (all numbers should be saved). If an incorrect input is entered, it should be skipped. If we enter `stop`, the loop should terminate. If we run this method again, the new values should be merged with the existing ones.
+
+### `.getSum()` The method should return the sum of all numbers entered.
+
+### `.getMultiplication()` This method should return the product of all numbers entered
+
+### `.clearData()` This method should remove all stored numbers, effectively resetting the data.
+
+### `.getMin()` This method should return the minimum value among all stored numbers
+
+### `.getMax()` This method should return the maximum value among all stored numbers.
+
+
+## This code used modules. All variables in file not global, for this you have an assignment object to window
 ## Criteria:
 
 - Resolve all errors in the file
