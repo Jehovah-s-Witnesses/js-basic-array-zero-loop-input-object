@@ -18,18 +18,18 @@ const loopCalculator = {
       }
 
       this.arr.push(+userQuestion);
-    } while (true)
+    } while (true);
   },
   getSum() {
     let sumAdd = 0;
-    for (let key of this.arr) {
+    for (const key of this.arr) {
       sumAdd += key;
     }
     return sumAdd;
   },
   getMultiplication() {
     let sumMultiplication = 1;
-    for (let key of this.arr) {
+    for (const key of this.arr) {
       sumMultiplication *= key;
     }
     return sumMultiplication;
